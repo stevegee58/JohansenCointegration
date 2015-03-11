@@ -3,6 +3,8 @@ A C++ implementation of the Johansen Cointegration test
 
 This is the first C/C++ implementation of Johansen's Cointegration test I'm aware of on the public Internet.  It's based on a C# implementation from a poster named <a href=http://www.quantcode.com/userinfo.php?uid=190>Vanna</a> from quantcode.com.
 
+This isn't the best code I've written but in my defense the algorithm is very involved and the original C# code was written by someone else.  However it does in fact work and even has all the memory leaks worked out.
+
 Prerequisites:
 
 This class is based on the GNU Scientific Library (GSL) version 1.16.  If you're on a *nix system this shouldn't be a problem.  Just download and install it the usual way for your system.  Google is your friend.
