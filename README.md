@@ -17,6 +17,6 @@ On Windows, I uploaded the .sln and .vcxproj files for a Visual Studio 2013 proj
 
 The main class for doing all the Johansen work is in JohansenHelper.h/.cpp.  A command line program is contained in JohansenTest.cpp which uses the JohansenHelper.  To demonstrate the cointegration function there are 4 test cases implemented in JohansenTest.  These cases were covered in Vanna's quantcode postings on quantcode.  S/he wrote many C# apps and online papers/FAQs which I encourage you to have a look at.
 
-In particular, I referred to this article frequently: <a href=http://www.quantcode.com/modules/smartfaq/faq.php?faqid=103>How do I interpret Johansens' test results?</a>
+In particular, I referred to this article frequently: <a href=http://www.quantcode.com/modules/smartfaq/faq.php?faqid=103>How do I interpret Johansens' test results?</a>  This is the article from where I got the 4 test cases.
 
 Drop a line if you find this useful or have problems compiling or using this.
