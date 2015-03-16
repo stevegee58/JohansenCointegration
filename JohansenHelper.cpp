@@ -35,7 +35,8 @@ JohansenHelper::JohansenHelper(DoubleMatrix xMat)
 
 JohansenHelper::~JohansenHelper()
 {
-    // No processing required.
+    gsl_matrix_free(xMat_gsl);
+    xMat_gsl = NULL;
 }
 
 vector<MaxEigenData> JohansenHelper::GetOutStats()
