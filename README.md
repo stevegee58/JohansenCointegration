@@ -9,7 +9,7 @@ Prerequisites:
 
 This class is based on the GNU Scientific Library (GSL) version 1.16.  If you're on a *nix system this shouldn't be a problem.  Just download and install it the usual way for your system.  Google is your friend.
 
-For Windows systems this is stickier.  GSL does not officially provide library binaries for Windows;  you'll either have to find a Windows binary package somewhere on the Interwebs or compile it yourself (not for the faint of heart).  <a href=http://brgladman.org/oldsite/computing/gnu_scientific_library.php>A fellow github member (ahmadyan)</a> provided all the tools and detailed instructions necessary to do this.  In fact I successfully created my own Windows GSL binaries using his instructions.
+For Windows systems this is stickier.  GSL does not officially provide library binaries for Windows;  you'll either have to find a Windows binary package somewhere on the Interwebs or compile it yourself (not for the faint of heart).  <a href=https://github.com/ahmadyan>A fellow github member (ahmadyan)</a> provided all the tools and detailed instructions necessary to do this.  In fact I successfully created my own Windows GSL binaries using his instructions.
 
 Build instructions for the Johansen Cointegration project:
 
