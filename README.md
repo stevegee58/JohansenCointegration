@@ -1,7 +1,7 @@
 # JohansenCointegration
 A C++ implementation of the Johansen Cointegration test
 
-This is the first C/C++ implementation of Johansen's Cointegration test I'm aware of on the public Internet.  It's based on a C# implementation from a poster named <a href="http://www.quantcode.com/userinfo.php?uid=190">Vanna</a> from quantcode.com.
+This is the first C/C++ implementation of Johansen's Cointegration test I'm aware of on the public Internet.  It's based on a C# implementation from a poster named <a href="https://web.archive.org/web/20160727212132/http://www.quantcode.com/userinfo.php?uid=190">Vanna</a> from quantcode.com.
 
 This isn't the best code I've written but in my defense the algorithm is very involved and the original C# code was written by someone else.  However it does in fact work and even has all the memory leaks worked out.
 
@@ -19,6 +19,6 @@ On Windows, I uploaded the .sln and .vcxproj files for a Visual Studio 2013 proj
 
 The main class for doing all the Johansen work is in JohansenHelper.h/.cpp.  A command line program is contained in JohansenTest.cpp which uses the JohansenHelper.  To demonstrate the cointegration function there are 4 test cases implemented in JohansenTest.  These cases were covered in Vanna's quantcode postings on quantcode.  S/he wrote many C# apps and online papers/FAQs which I encourage you to have a look at.
 
-In particular, I referred to this article frequently: <a href="http://www.quantcode.com/modules/smartfaq/faq.php?faqid=103">How do I interpret Johansens' test results?</a>  This is the article from where I got the 4 test cases.
+In particular, I referred to this article frequently: <a href="https://web.archive.org/web/20161025043033/http://www.quantcode.com/modules/smartfaq/faq.php?faqid=103">How do I interpret Johansens' test results?</a>  This is the article from where I got the 4 test cases.
 
 Drop a line if you find this useful or have problems compiling or using this.
