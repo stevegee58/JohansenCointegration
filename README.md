@@ -7,15 +7,15 @@ This isn't the best code I've written but in my defense the algorithm is very in
 
 Prerequisites:
 
-This class is based on the GNU Scientific Library (GSL) version 1.16.  If you're on a *nix system this shouldn't be a problem.  Just download and install it the usual way for your system.  Google is your friend.
+This class is based on the latest GNU Scientific Library (GSL) version.  If you're on a *nix system this shouldn't be a problem.  Just download and install it the usual way for your system.  Google is your friend.
 
-For Windows systems this is stickier.  GSL does not officially provide library binaries for Windows;  you'll either have to find a Windows binary package somewhere on the Interwebs or compile it yourself (not for the faint of heart).  <a href=https://github.com/ahmadyan>A fellow github member (ahmadyan)</a> provided all the tools and detailed instructions necessary to do this.  In fact I successfully created my own Windows GSL binaries using his instructions.
+For Windows systems this is stickier.  GSL does not officially provide library binaries for Windows;  you'll either have to find a Windows binary package somewhere on the Interwebs or compile it yourself (not for the faint of heart).  I successfully created my own Windows GSL binaries using the Github repository <a href=https://github.com/BrianGladman/gsl>here</a>.  The repo provides the instructions to build GSL in Visual Studio.
 
 Build instructions for the Johansen Cointegration project:
 
 On Linux, create a build subdirectory and go into it.  Type "cmake .." followed by make.
 
-On Windows, I uploaded the .sln and .vcxproj files for a Visual Studio 2013 project.  Eventually I'll fix the CMakeLists.txt file to generate VS project files directly.  The Visual Studio project is expecting your Windows-based GSL library to be in the top level directory of this project, parallel with the source files.
+On Windows, create a build subdirectory, go into it and type "cmake ..".  This creates the solution and project file for Visual Studio.  The Visual Studio project is expecting your Windows-based GSL library to be in the top level directory of this project, parallel with the source files.
 
 The main class for doing all the Johansen work is in JohansenHelper.h/.cpp.  A command line program is contained in JohansenTest.cpp which uses the JohansenHelper.  To demonstrate the cointegration function there are 4 test cases implemented in JohansenTest.  These cases were covered in Vanna's quantcode postings on quantcode.  S/he wrote many C# apps and online papers/FAQs which I encourage you to have a look at.
 
