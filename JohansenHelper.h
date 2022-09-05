@@ -2,7 +2,7 @@
 #define JOHANSEN_HELPER_DEFINED
 
 #include "CommonTypes.h"
-#include "gsl/gsl_matrix.h"
+#include <gsl/gsl_matrix.h>
 
 using namespace std;
 using namespace CommonTypes;
